@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app/pages/visitas'
+let g:netrw_dirhist_4='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app/pages'
+let g:netrw_dirhist_3='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app'
+let g:netrw_dirhist_2='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src'
+let g:netrw_dirhist_1='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless'
+let g:netrw_dirhist_0='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app/pages/visitas'
+let g:netrw_dirhist_9='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app/pages'
+let g:netrw_dirhist_8='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src/app'
+let g:netrw_dirhist_7='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless/src'
+let g:netrw_dirhist_6='/Users/David/CodFuente/ServerLess/diverseyperu-web-sless'
