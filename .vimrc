@@ -4,8 +4,13 @@ syntax on
 
 " Plugins 
 call plug#begin()
+"autocomplete
 Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+
+"style 
 Plug 'rafi/awesome-vim-colorschemes'
+
+"navigation
 Plug 'preservim/nerdtree'
 call plug#end()
 
