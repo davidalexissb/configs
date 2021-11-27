@@ -26,6 +26,8 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
 "nmap <Leader>s <Plug>(easymotion-s2)
 map  / <Plug>(easymotion-sn)
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
