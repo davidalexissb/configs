@@ -1,18 +1,24 @@
 set relativenumber
 set number
 syntax on
-set clipboard=unnamedplus
+set clipboard=unnamed
 set mouse=a
 set showcmd
+set numberwidth=1
+set ruler
+set showmatch
+set laststatus=2
 " Plugins 
 so ~/.vim/plugins.vim
 
 set background=dark
-colorscheme PaperColor
+"colorscheme PaperColor
+colorscheme gruvbox
+let g:gruvbox_contrans_dark="hard"
 
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 
-set laststatus=2
+let mapleader=" "
 
 "keymaps
 inoremap <silent><expr> <c-@> coc#refresh()
@@ -20,7 +26,8 @@ nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
+"nmap <Leader>s <Plug>(easymotion-s2)
+map  / <Plug>(easymotion-sn)
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
 " unicode characters in the file autoload/float.vim
 set encoding=utf-8

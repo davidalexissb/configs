@@ -4,10 +4,15 @@ call plug#begin('~/.vim/plugged')
   
    "style
    Plug 'rafi/awesome-vim-colorschemes'
-  
-   "navigation
+   Plug 'morhetz/gruvbox'
+   "file navigation
    Plug 'preservim/nerdtree'
-
+   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+   Plug 'junegunn/fzf.vim'
    "status bar 
    Plug 'itchyny/lightline.vim'
+   "tmux
+   Plug 'christoomey/vim-tmux-navigator'
+   "easymotion
+   Plug 'easymotion/vim-easymotion'
 call plug#end() 
